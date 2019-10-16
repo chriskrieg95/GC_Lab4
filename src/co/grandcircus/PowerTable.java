@@ -8,7 +8,7 @@ public class PowerTable {
 
 		Scanner scan = new Scanner(System.in);
 
-		String response = "y";
+		String response = "";
 
 		do {
 
@@ -32,10 +32,10 @@ public class PowerTable {
 			System.out.println("Continue? (y/n)");
 			response = scan.next();
 
-			System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+			
 
 		} while (response.equalsIgnoreCase("y"));
-
+		System.out.println("Goodbye.");
 		scan.close();
 
 	}
